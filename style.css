@@ -1,0 +1,49 @@
+body 
+{
+	margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:#e91e63;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+.fa-search {
+    color: red;
+  }
+
+  .fa-gift {
+    color: #4c00ff;
+  }
+
+
+  .fa-shopping-bag {
+    color: rgba(16, 198, 211, 0.767);
+  }
+
+
+  .fa-clock{
+      color:orangered;
+  }
+
+
+
+  .fa-wallet{
+      color:goldenrod;
+  }
+  .fa-hard-hat{
+      color:brown;
+
+  }
+
+
+.tabl { border-collapse: separate;
+    width: 400%;
+    }
+.row {height:80px;display:table-row}
+.cell {border:1px solid rgb(221, 15, 128);display:table-cell}
+
+.tabl {width: 50%; float: right;}
